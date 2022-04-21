@@ -65,7 +65,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import confusion_matrix
 ```
 
-### Загрузка исходных данных
+## Загрузка исходных данных
 ```python
 # Загрузка исходных данных
 data_df = pd.read_csv('telecom_users.csv', index_col=0, skipinitialspace=True)
@@ -117,7 +117,7 @@ data_df.head()
 data_df.drop(columns={'customerID'}, inplace=True)
 ```
 
-### Разведочный анализ
+## Разведочный анализ
 ```python
 # Информация о размерности данных
 data_df.shape
